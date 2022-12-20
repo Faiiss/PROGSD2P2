@@ -8,14 +8,12 @@
 
 <?php
 $dagtotaal = array();
-$prijzen = array(
-        'chocola' => 1.25,
-        'snoepgoed' => 2.75,
-        'blikje frisdrank' => 2.25,
-        'gevulde koek' => 1.75
-);
+$prijzen = ['chocola' => 1.25, 'snoepgoed' => 2.75,'blikje frisdrank' => 2.25,'gevulde koek' => 1.75];
 
-var_dump($prijzen);
+//var_dump($prijzen);
+foreach($prijzen as $k =>$val){
+    echo $k. "=>" .$val ."<br/>";
+}
 ?>
 
 <h2>Winkelmand</h2>
